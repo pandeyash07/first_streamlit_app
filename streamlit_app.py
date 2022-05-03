@@ -17,5 +17,5 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 # let's put a pick list here so they can pick the fruit they want to include
 stramline.multiselect("pick some fruits:",list(my_fruit_list.index))
                       
-# Display the Table on the page.  
+# Display the Table on the.  
 streamlit.dataframe(my_fruit_list)
