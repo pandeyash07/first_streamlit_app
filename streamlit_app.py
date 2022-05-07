@@ -43,7 +43,7 @@ my_data_rows = my_cur.fetchall()
 streamlit.text("fruit_load_list_contains")
 streamlit.dataframe(my_data_rows)
 add_my_fruit = streamlit.text_area("Fruit_select")
-streamlit.title(add_my_fruit)
+streamlit.title("Thanks for adding jackfruit",add_my_fruit)
 
 
 
