@@ -45,7 +45,7 @@ streamlit.dataframe(my_data_rows)
 add_my_fruit = streamlit.text_area("Fruit_select")
 streamlit.title("Thanks for adding jackfruit",add_my_fruit)
 
-my_cur.execute("insert into fruit_load_list values ('test')");
+my_cur.execute("insert into fruit_load_list values ('from test')");
 
 
 
